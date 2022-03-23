@@ -34,12 +34,6 @@ const Profile = ({username, tag, location, avatar, stats}) => (
 )
 
 
-
-// Profile.defaultProps = {
-//   avatar: 'https://cdn-icons-png.flaticon.com/512/2922/2922506.png',
-// };
-
-
 Profile.propTypes = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
