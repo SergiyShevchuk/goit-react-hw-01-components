@@ -1,22 +1,24 @@
 .friends_list {
   width: 360px;
-  height: 450px;
+  height: 480px;
   margin: auto;
-  border: solid 1px rgb(211, 221, 221);
+  margin-bottom: 30px;
+  border-radius: 5px;
 }
+
 .item {
   display: flex;
   align-items: center;
+  border: 1px solid #e6e6e6;
   margin: 20px;
-  box-shadow: 0 0 1em;
   padding-left: 10px;
   border-radius: 1px;
 }
 .statusOnline,
 .statusOffline {
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   background-color: green;
   margin: 0 10px 0 10px;
@@ -31,5 +33,5 @@
 
 .name {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
